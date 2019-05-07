@@ -1,0 +1,30 @@
+html {
+    background: url('https://imgs.edhelper.com/clipart/coinscolor/coins469.gif');
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;
+}
+
+div{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+
+}
+
+.item{
+    flex-grow: 1;
+}
+
+.item1{
+    flex-grow: 2;
+}
+
+br {
+    line-height: 700%;
+ }

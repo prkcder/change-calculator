@@ -3,11 +3,57 @@
   <head>
     <meta charset="utf-8">
     <title>Change Calculator</title>
+    <link rel='stylesheet' href='style.css'>
   </head>
   <body>
     <!-- Write your markup here -->
+<header>
+  <h1>Change Calculator</h1>
+</header>
+
+<br>
+
+<div class='container'>
+    <div class="item">
+          <p>How much is due for the sale?</p>  
+          <input id='amount-due' type='text' placeholder='Amount Due'/>
+    </div>
+    <div class="item">
+          <p>How much has the customer given you?</p>
+          <input id='amount-received' type='text' placeholder='Amount Received'/>
+    </div>
+  <button id='calculate-change' type='button' onclick='clickChaChing()'>Calculate Change</button> 
+</div>
+
+
+<div class='container'>
+  <div class='item1'>
+      <label>Dollars</label>
+      <p id='dollars-output'>0</p>
+  </div>
+</div>
+
+<div class='container'>
+        <div class="item">
+            <label>Quarters</label>
+            <p id='quarters-output'>0</p>
+        </div>
+        <div class="item">
+            <label>Dimes</label>
+            <p id='dimes-output'>0</p>
+        </div>
+        <div class="item">
+            <label>Nickels</label>
+            <p id='nickels-output'>0</p>
+        </div>
+        <div class="item">
+            <label>Pennies</label>
+            <p id='pennies-output'>0</p>
+        </div>
+</div>
+
 
     <!-- Don't forget to add your <script> tag here -->
-
+    <script src="main.js" charset="utf-8"></script>
   </body>
 </html>
